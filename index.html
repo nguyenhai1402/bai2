@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WedcuaHai</title>
+</head>
+<body>
+    <p class="box1">Nguyen duc hai</p>
+    <form method="post" target="blank" autocomplete="on">
+        <label for="fullname">Họ tên:</label>
+        <input type="text" id="fullname" name="full_name">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <label for="colors" >Màu:</label>
+        <select id="colors" name="colors">
+            <option value="red" selected>
+                Đỏ
+            </option>
+            <option value="green">Xanh lá</option>
+            <option value="black"> Đen</option>
+            <option>Không</option>
+        </select>
+    </form>
+    <form action="hocbackend/bai1/index.html"
+    method="post"
+    autocomplete="on">
+    <label class="box2" for="hoten">Họ tên:</label>
+    <br />
+    <input class="box3" type="text" id="hoten" name="hoten">
+    <br />
+    <label class="box2" for="matkhau">Mật khẩu:</label>
+    <br />
+    <input class="box3" type="password" id="matkhau" name="matkhau">
+    <br />
+    <label class="box2" for="email">Email:</label>
+    <br />
+    <input class="box3" type="email" id="email" name="email">
+    <br />
+    <label class="box2" for="soluong">Số lượng:</label>
+    <br />
+    <input class="box3" type="number" id="soluong" name="soluong">
+    <br />
+    <label class="box2" for="datetime">Date time:</label>
+    <br />
+    <input class="box3" type="datetime-local" id="datetime" name="datetime">
+    <br />
+    <label class="box2" for="mausac">Màu sắc:</label>
+    <br />
+
+    <select class="box3" id="mausac" name="mausac">
+        <option>--Lựa chọn--</option>
+        <option value="red">Đỏ</option>
+        <option value="green">Xanh lá</option>
+        <option value="blue">Xanh dương</option>
+        <option value="black">Đen</option>
+    </select>
+    <br />
+    <input type="checkbox" id="gaixinh" name="box" value="gaixinh">
+    <label for="gaixinh" >Gái xinh</label>
+    <br />
+    <input type="checkbox" id="gaixau" name="box" value="gaixau">
+    <label for="gaixau">Gái xấu</label>
+<br />
+    <input type="checkbox" id="khong" name="box" value="khongchon">
+    <label for="khong">Không chọn</label>
+<br />
+    <label class="box2" for="file" >Upload file:</label>
+    <input type="file" id="file" name="file">
+    </form>
+</body>
+</html>
